@@ -1,40 +1,23 @@
-
-## EX.NO:2(A)	ITERATIVE STATEMENTS: PALINDROME NUMBER CHECKER
-
-
+## EX.NO:2(B)	BUILT-IN FUNCTIONS -BINARY CONVERSION USING BUILT-IN FUNCTIONS
 ## AIM:
-
-To write a program in python to compute whether the given number is a palindrome
-
+To write a python program to convert 16 to binary number using built in functions.
 ## ALGORITHM:
 
-Step1: get input and assign it to a temp variable
+Step1: Get input from the user
 
-Step2: iterate the input until temp>0.
+Step2: print (bin (input))
 
-Step3: give the condition of rev=(10*rev)+temp%10 and temp//=10 
+Step3: Execute the program.
 
-Step4: if rev==num then the number is a palindrome
 
-Step5: else the number is not a palindrome
 ## PROGRAM:
 ```
-num=int(input()) 
-rev=0 temp=num 
-while temp>0:
-  rev=(10*rev)+temp%10 
-  temp//=10
-if rev==num:
-   print("The given number {} is a Palindrome".format(num)) 
-else:
-   print("The given number {} is not a palindrome".format(num))
+a=16
+print(bin(a)
 ```
+
 ## OUTPUT:
-
-![image](https://github.com/user-attachments/assets/3b35bc88-b262-4c50-a818-f2c362602680)
-
-
-
+![image](https://github.com/user-attachments/assets/4282b811-d816-4fa4-b19d-67ae316e859e)
 
 ## RESULT:
-Thus, the program has been successfully executed
+Thus, the program has been successfully executed.
