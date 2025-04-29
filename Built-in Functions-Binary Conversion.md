@@ -1,17 +1,33 @@
-# Built-in Functions -Binary Conversion Using Built-in Functions in Python
 
-## 🎯 Aim
-To write a Python program to convert the number **16** into its **binary representation** using built-in Python functions.
+##EX.NO:2(A)	ITERATIVE STATEMENTS: PALINDROME NUMBER CHECKER
 
-## 🧠 Algorithm
-1. Assign the value `16` to a variable `a`.
-2. Use the built-in `bin()` function to convert the number to binary.
-3. Print the result.
 
-## 🧾 Program
+## AIM:
+To write a program in python to compute whether the given number is a palindrome
+## ALGORITHM:
+Step1: get input and assign it to a temp variable
 
-Add Code Here
+Step2: iterate the input until temp>0.
 
-## Output
+Step3: give the condition of rev=(10*rev)+temp%10 and temp//=10 
 
-## Result
+Step4: if rev==num then the number is a palindrome
+
+Step5: else the number is not a palindrome
+## PROGRAM:
+```
+num=int(input()) rev=0 temp=num while temp>0:
+rev=(10*rev)+temp%10 temp//=10
+if rev==num:
+print("The given number {} is a Palindrome".format(num)) else:
+print("The given number {} is not a palindrome".format(num))
+```
+## OUTPUT:
+
+![image](https://github.com/user-attachments/assets/3b35bc88-b262-4c50-a818-f2c362602680)
+
+
+
+
+## RESULT:
+Thus, the program has been successfully executed
