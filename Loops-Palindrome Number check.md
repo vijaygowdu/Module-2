@@ -1,22 +1,40 @@
-## Loops in Python: Palindrome Number Checker
 
-## 🎯 Aim
-To write a Python program that checks whether a given number is a **palindrome** using loops.
+## EX.NO:2(A)	ITERATIVE STATEMENTS: PALINDROME NUMBER CHECKER
 
-## 🧠 Algorithm
-1. Get input from the user and assign it to a variable `num`.
-2. Assign the value of `num` to a temporary variable `temp`.
-3. Initialize a variable `rev` to 0 (used to store the reversed number).
-4. Use a `while` loop to reverse the digits:
-   - While `temp > 0`:
-     - `rev = (10 * rev) + temp % 10`
-     - `temp = temp // 10`
-5. After the loop, compare `rev` with `num`:
-   - If equal, print that the number is a palindrome.
-   - Else, print that it is not a palindrome.
 
-## 🧾 Program
-Add code Here
-## Output
+## AIM:
 
-## Result
+To write a program in python to compute whether the given number is a palindrome
+
+## ALGORITHM:
+
+Step1: get input and assign it to a temp variable
+
+Step2: iterate the input until temp>0.
+
+Step3: give the condition of rev=(10*rev)+temp%10 and temp//=10 
+
+Step4: if rev==num then the number is a palindrome
+
+Step5: else the number is not a palindrome
+## PROGRAM:
+```
+num=int(input()) 
+rev=0 temp=num 
+while temp>0:
+  rev=(10*rev)+temp%10 
+  temp//=10
+if rev==num:
+   print("The given number {} is a Palindrome".format(num)) 
+else:
+   print("The given number {} is not a palindrome".format(num))
+```
+## OUTPUT:
+
+![image](https://github.com/user-attachments/assets/3b35bc88-b262-4c50-a818-f2c362602680)
+
+
+
+
+## RESULT:
+Thus, the program has been successfully executed
