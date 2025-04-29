@@ -27,7 +27,7 @@ while temp>0:
 if rev==num:
    print("The given number {} is a Palindrome".format(num)) 
 else:
-  print("The given number {} is not a palindrome".format(num))
+   print("The given number {} is not a palindrome".format(num))
 ```
 ## OUTPUT:
 
