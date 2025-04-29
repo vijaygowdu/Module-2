@@ -1,10 +1,13 @@
 
-##EX.NO:2(A)	ITERATIVE STATEMENTS: PALINDROME NUMBER CHECKER
+## EX.NO:2(A)	ITERATIVE STATEMENTS: PALINDROME NUMBER CHECKER
 
 
 ## AIM:
+
 To write a program in python to compute whether the given number is a palindrome
+
 ## ALGORITHM:
+
 Step1: get input and assign it to a temp variable
 
 Step2: iterate the input until temp>0.
