@@ -19,11 +19,15 @@ Step4: if rev==num then the number is a palindrome
 Step5: else the number is not a palindrome
 ## PROGRAM:
 ```
-num=int(input()) rev=0 temp=num while temp>0:
-rev=(10*rev)+temp%10 temp//=10
+num=int(input()) 
+rev=0 temp=num 
+while temp>0:
+  rev=(10*rev)+temp%10 
+  temp//=10
 if rev==num:
-print("The given number {} is a Palindrome".format(num)) else:
-print("The given number {} is not a palindrome".format(num))
+   print("The given number {} is a Palindrome".format(num)) 
+else:
+  print("The given number {} is not a palindrome".format(num))
 ```
 ## OUTPUT:
 
